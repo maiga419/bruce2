@@ -1,0 +1,135 @@
+/**************************TAG SELECTORS*************************/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1 {
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    line-height: 4px;
+    
+}
+
+h2 {
+    color: #66BFBF;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 0;
+    
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: dotted;
+    border-width: 10px;
+    color: #EAF6F6;
+    width: 7%;
+    margin: 70px auto 70px auto;
+}
+
+p {
+    color: #40514E;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+
+/**************************CLASS SELECTORS*************************/
+.top-container {
+    background-color: #EAFDFC;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 25px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 370px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+    line-height: 2;
+}
+
+.small {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.ssmall {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bru {
+    margin-top: 50px;
+}
+
+.last-h3 {
+    line-height: 4;
+    
+}
+
+.last-p {
+    color: #EAF6F6;
+    font-size: 11px;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+.btn {
+    line-height: 8;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #11cdd4, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #11cdd4, #2bc4ad);
+    background-image: -o-linear-gradient(top, #11cdd4, #2bc4ad);
+    background-image: linear-gradient(to bottom, #11cdd4, #2bc4ad);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
